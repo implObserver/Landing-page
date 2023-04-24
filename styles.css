@@ -1,5 +1,17 @@
 body {}
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     background-color: #1f2937;
 }
@@ -8,11 +20,6 @@ body {}
     color: #f9faf8;
     font-size: 24px;
     font-weight: 800;
-}
-
-.header__right-links {
-    color: #E5E7EB;
-    font-size: 18px;
 }
 
 .section-1 {
@@ -58,6 +65,7 @@ body {}
 }
 
 .section-3__paragraph {
+    font-family: sans-serif;
     font-style: italic;
     font-weight: 300;
     font-size: 36px;
