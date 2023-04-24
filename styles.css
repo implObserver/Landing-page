@@ -26,25 +26,49 @@
     color: #E5E7EB;
 }
 
+.header__right-links a,
+.section-1__left__paragraph,
+.section-1__left_button,
+.section-1__right__placeholder__title,
+.section-2__containers__container__text,
+.section-4__container__left__text,
+.section-4__container__right__button,
+.footer__text {
+    font-size: 18px;
+}
+
+.section-2__title,
+.section-3__paragraph {
+    font-size: 36px;
+}
+
+.section-2__title,
+.section-2__containers__container__text,
+.section-3__paragraph,
+.section-3__paragraph--caption {
+    color: #1F2937;
+}
+
 body {}
 
 .header {}
 
+.header__logo,
+.section-3__paragraph--caption,
+.section-4__container__left__title {
+    font-size: 24px;
+}
+
 .section-1 {}
+
+.section-1__left__title {
+    font-size: 48px;
+}
 
 .section-2 {}
 
-.section-2__title {
-    color: #1f2937;
-}
-
 .section-3 {
     background-color: #E5E7EB;
-}
-
-.section-3__paragraph,
-.section-3__paragraph--caption {
-    color: #1F2937;
 }
 
 .section-4 {}
