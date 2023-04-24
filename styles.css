@@ -1,0 +1,27 @@
+.header,
+.section-1,
+.footer {
+    background-color: #1f2937;
+}
+
+.section-1__left_button,
+.section-4__container,
+.section-4__container__right__button {
+    background-color: #3882F6;
+}
+
+body {}
+
+.header {}
+
+.section-1 {}
+
+.section-2 {}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.section-4 {}
+
+.footer {}
