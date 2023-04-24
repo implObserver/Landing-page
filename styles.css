@@ -1,76 +1,101 @@
-.header,
-.section-1,
-.footer {
+body {}
+
+.header {
     background-color: #1f2937;
 }
 
-.section-1__left_button,
-.section-4__container,
-.section-4__container__right__button {
-    background-color: #3882F6;
-}
-
-.header__logo,
-.section-1__left__title,
-.section-1__left_button,
-.section-1__right__placeholder__title,
-.section-4__container__left__title,
-.section-4__container__right__button {
+.header__logo {
     color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
 }
 
-.header__right-links a,
-.section-1__left__paragraph,
-.section-4__container__left__text,
-.footer__text {
+.header__right-links {
     color: #E5E7EB;
-}
-
-.header__right-links a,
-.section-1__left__paragraph,
-.section-1__left_button,
-.section-1__right__placeholder__title,
-.section-2__containers__container__text,
-.section-4__container__left__text,
-.section-4__container__right__button,
-.footer__text {
     font-size: 18px;
 }
 
-.section-2__title,
-.section-3__paragraph {
-    font-size: 36px;
+.section-1 {
+    background-color: #1f2937;
 }
 
-.section-2__title,
-.section-2__containers__container__text,
-.section-3__paragraph,
-.section-3__paragraph--caption {
+.section-1__left__title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.section-1__left__paragraph {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.section-1__left_button {
+    color: #f9faf8;
+    background-color: #3882F6;
+    font-size: 18px;
+}
+
+.section-1__right__placeholder__title {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.section-2__containers__container__text {
+    font-size: 18px;
     color: #1F2937;
 }
 
-body {}
 
-.header {}
-
-.header__logo,
-.section-3__paragraph--caption,
-.section-4__container__left__title {
-    font-size: 24px;
+.section-2__title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
 }
-
-.section-1 {}
-
-.section-1__left__title {
-    font-size: 48px;
-}
-
-.section-2 {}
 
 .section-3 {
     background-color: #E5E7EB;
 }
 
-.section-4 {}
+.section-3__paragraph {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+}
 
-.footer {}
+.section-3__paragraph--caption {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.section-4__container {
+    background-color: #3882F6;
+}
+
+.section-4__container__left__title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.section-4__container__left__text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.section-4__container__right__button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.footer__text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
