@@ -182,11 +182,14 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 16px 200px 16px 200px;
-    min-height: 450px;
+    min-height: 400px;
 }
 
 .section-3__container {
-    
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;;
+    gap: 8px;
 }
 
 .section-3__container__paragraph {
@@ -195,6 +198,7 @@ ul {
     font-weight: 300;
     font-size: 36px;
     color: #1F2937;
+    max-width: 820px;
 }
 
 .section-3__container__paragraph--caption {
@@ -202,7 +206,8 @@ ul {
     font-family: Roboto, sans-serif;
     font-size: 24px;
     font-weight: 800;
-    text-align:right;
+    padding-right: 36px;
+    text-align: right;
 }
 
 .section-4 {
