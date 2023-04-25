@@ -29,10 +29,11 @@ ul {
 }
 
 .header {
-    padding: 8px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1f2937;
+    padding: 16px 200px 16px 200px; 
 }
 
 .header__logo {
@@ -44,16 +45,26 @@ ul {
 
 .header__right-links {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
 }
 
 .section-1 {
     background-color: #1f2937;
     display: flex;
+}
+
+.section-1__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
 }
 
 .section-1__left__title {
@@ -76,11 +87,13 @@ ul {
     font-family: Roboto, sans-serif;
 }
 
-.section-1__right__placeholder {
+.section-1__right {
+    display: flex;
+    flex-direction: column;
     background-color: #6d747d;
 }
 
-.section-1__right__placeholder__title {
+.section-1__right__title {
     color: #f9faf8;
     font-family: Roboto, sans-serif;
     font-size: 18px;
@@ -88,6 +101,7 @@ ul {
 
 .section-2 {
     display: flex;
+    flex-grow: 1;
 }
 
 .section-2__containers__container__text {
@@ -107,6 +121,7 @@ ul {
 .section-3 {
     background-color: #E5E7EB;
     display: flex;
+    flex-grow: 1;
 }
 
 .section-3__paragraph {
@@ -126,6 +141,7 @@ ul {
 
 .section-4 {
     display: flex;
+    flex-grow: 1;
 }
 
 .section-4__container {
